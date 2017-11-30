@@ -6,7 +6,7 @@ Date:11/29
 
 Description: This project is just to click the buttons. The questions on the buttons will be answered respectively. 
 This topic is a very intriguing part of computerization. It is for me what makes computerization such a fun topic to learn. The dangers of the web and attackers that can hunt down your computer is a very intriguing topic to research. 
-What specific feedback did you receive from your classmates and teacher during the feedback session. How did you incorporate this feedback into your final design?
+Alex definitely helped with my learning of this topic, it was extremely helpful to hear his feedback on the organization tips that he had with me.  
 Definitely. Now I know way more functions than before this class has started, my function and knowledge of commands has grown way more than before when I could only draw stuff. 
 New students, follow you passion. 
 If I had 10 more years, I would definitely do this project way more effectively, mainly because the I know the material way better than usual. . 
