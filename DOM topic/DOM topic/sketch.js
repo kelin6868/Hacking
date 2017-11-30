@@ -1,16 +1,15 @@
 
 /*
-Title:HACKING!!!
+Title:HACKING!!!-Kevin Lin
 Imagined, Designed, and Programmed by: Kevin Lin
 Date:11/29
 
-Description: 
-Describe how to use your app.
-How did you choose this topic, and what does it mean to you personally?
+Description: This project is just to click the buttons. The questions on the buttons will be answered respectively. 
+This topic is a very intriguing part of computerization. It is for me what makes computerization such a fun topic to learn. The dangers of the web and attackers that can hunt down your computer is a very intriguing topic to research. 
 What specific feedback did you receive from your classmates and teacher during the feedback session. How did you incorporate this feedback into your final design?
-How have your technical skills and/or problem strategies grown since the textile design project?
-What advice do you have for anyone (for example, future Computing students) who plans to take on this project, based on what you learned?
-If you had more time, how would you build on this project?
+Definitely. Now I know way more functions than before this class has started, my function and knowledge of commands has grown way more than before when I could only draw stuff. 
+New students, follow you passion. 
+If I had 10 more years, I would definitely do this project way more effectively, mainly because the I know the material way better than usual. . 
 
 
 
@@ -27,13 +26,7 @@ Includes code from (title, author, URL):
  * 
  *
  
-<Reminders, you can delete:>
-<Use command + T to auto-indent your code for cleaner formatting>
-<Check that variable and function names are easy to read and understand. eg. "squareButton" vs.
-"shapeButton2">
-<If you can't remember where you found some code, Google the text to find it.>
-<Put your name in the name of this file!>
-
+THIS ALSO INCLUDES CODE FROM THE FILE VIRUSEXAMPLE. SEE THE OTHER DOCUMENT TO ALSO GET CODE FROM THERE. 
 */
 function setup() {
   createCanvas(1000, 1000);
