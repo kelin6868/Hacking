@@ -1,4 +1,40 @@
 
+/*
+Title:HACKING!!!
+Imagined, Designed, and Programmed by: Kevin Lin
+Date:11/29
+
+Description: 
+Describe how to use your app.
+How did you choose this topic, and what does it mean to you personally?
+What specific feedback did you receive from your classmates and teacher during the feedback session. How did you incorporate this feedback into your final design?
+How have your technical skills and/or problem strategies grown since the textile design project?
+What advice do you have for anyone (for example, future Computing students) who plans to take on this project, based on what you learned?
+If you had more time, how would you build on this project?
+
+
+
+
+
+
+Sources of ideas and inspiration (title, author, URL):
+ * 
+ *
+ *
+ 
+Includes code from (title, author, URL):
+ * 
+ * 
+ *
+ 
+<Reminders, you can delete:>
+<Use command + T to auto-indent your code for cleaner formatting>
+<Check that variable and function names are easy to read and understand. eg. "squareButton" vs.
+"shapeButton2">
+<If you can't remember where you found some code, Google the text to find it.>
+<Put your name in the name of this file!>
+
+*/
 function setup() {
   createCanvas(1000, 1000);
   background(0);
@@ -14,19 +50,7 @@ function setup() {
   button.position(19, 350);
   button.mousePressed(changeOPTIMAL);
 
-  // var bubble = {
-  //   changeWhat: function(){
-  //     var txt;
-  //     ellipse(100,100,100,100);
-  //           if (confirm("What is hacking?'is someone who seeks to breach defenses and exploit weaknesses in a computer system or network. Hackers may be motivated by a multitude of reasons, such as profit, protest, information gathering, challenge, recreation, or to evaluate system weaknesses to assist in formulating defenses against potential hackers'(Wika) so what does this mean? Hackers don't have to always be bad guys. White hat hackers experimetn and test security breaches out, making sure that they are safe. They might also create anti-virus software, too. Black hat hackers are ones that really do the 'cool' stuff, getting access into other's computers and passwords. But what are viruses? Viruses are malicious software that allow ackers to gain access to your computer.") == true) {
-  //             txt = "You great job! You just got hacked too!";
-  //         } else {
-  //           txt = "You great job! You just got hacked too!";
-  //        }
-  //
-  //
-  //   }
-  // }
+  
 
   button = createButton('Malware examples');
   button.position(19, 150);
