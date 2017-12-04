@@ -145,3 +145,61 @@ function changeOPTIMAL(){
   ;
   }
 }
+
+class Bubble {
+  constructor(x, y, r) {
+    this.x = x;
+    this.y = y;
+    this.r = r;
+  }
+
+  move() {
+    this.x = this.x + random(-2.5, 2.5);
+    this.y = this.y + random(-2.5, 2.5);
+  }
+
+  condition(){
+    if(x > canvas.width){
+      for(let i = 0; i < 15; i++){
+      this.x = this.x - 5
+      }
+    }
+    if(y > canvas.width){
+      for(let i = 0; i < 15; i++){
+      this.y = this.y - 5
+      }
+    }
+    if(x > this.r){
+      for(let i = 0; i < 15; i++){
+      this.x = this.x + 5
+      }
+    }
+    if(y < this.r){
+      for(let i = 0; i < 15; i++){
+      this.y = this.y + 5
+        }
+      }
+    }
+
+  show() {
+    strokeWeight(4);
+    noFill();
+    stroke(random(0, 255), random(0, 255), random(0, 255));
+    ellipse(this.x, this.y, this.r * 2);
+  }
+}
+
+function draw(){
+background(0);
+  for (let i = 0; i < bubbles.length; i++) {
+      bubbles[i].move();
+      bubbles[i].show();
+  }
+}
+
+
+function mousePressed() {
+  let r = random(10, 50);
+  let b = new Bubble(mouseX, mouseY, r);
+  bubbles.push(b);
+}
