@@ -110,7 +110,7 @@ function changeWhat() {
       var txt;
       if (confirm("What is hacking? It is someone who seeks to breach defenses and exploit weaknesses in a computer system or network. Hackers may be motivated by a multitude of reasons, such as profit, protest, information gathering, challenge, recreation, or to evaluate system weaknesses to assist in formulating defenses against potential hackers'(Wika) so what does this mean? But what are viruses? Viruses are malicious software that allow ackers to gain access to your computer.") == true) {
            myWindow = window.open("", "myWindow", "width=200,height=100");
-              myWindow.document.write("<p>This is wht a popup looks like. It brings another window or tab without your permission. </p>");
+              myWindow.document.write("<p>This is what a popup looks like. It brings another window or tab without your permission. </p>");
       } else {
           my_window.close();
       }
@@ -124,7 +124,7 @@ function changeWhat() {
 function changeERS(){
 
   var txt;
-  if(confirm("Hackers don't have to always be bad guys. White hat hackers experimetn and test security breaches out, making sure that they are safe. They might also create anti-virus software, too. Black hat hackers are ones that really do the 'cool' stuff, getting access into other's computers and passwords.") == true) {
+  if(confirm("Hackers don't have to always be bad guys. White hat hackers experiment and test security breaches out, making sure that they are safe. They might also create anti-virus software, too. Black hat hackers are ones that really do the 'cool' stuff, getting access into other's computers and passwords.") == true) {
     ;
   } else{
     ;
