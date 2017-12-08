@@ -65,7 +65,21 @@ function setup() {
   function setup() {
     image(img, 0, 0);}*/
 
-function changeMAL() {
+function changeWhat() {//What is hacking?
+
+      var txt;
+      if (confirm("What is hacking? It is someone who seeks to breach defenses and exploit weaknesses in a computer system or network. Hackers may be motivated by a multitude of reasons, such as profit, protest, information gathering, challenge, recreation, or to evaluate system weaknesses to assist in formulating defenses against potential hackers'(Wika) so what does this mean? But what are viruses? Viruses are malicious software that allow hackers to gain access to your computer.") == true) {
+           myWindow = window.open("", "myWindow", "width=200,height=100");
+              myWindow.document.write("<p>This is what a popup looks like. It brings another window or tab without your permission. </p>");
+      } else {
+          my_window.close();
+      }
+
+
+}
+
+
+function changeMAL() {//An example of malware
   myWindow = window.open("", "myWindow", "width=200,height=100");
   /*var val = random(255);
   background(val);
@@ -73,7 +87,7 @@ function changeMAL() {
 
 }
 
-function changeHK() {
+function changeHK() {//Where are the keys into any malware code?
 
       var txt;
       if (confirm("Malware is found on alot of popup sites. Here is an keys of a malware sample(DONT USE IT FOR ANY MALICIOUS CONTENT):(javascript) malware uses concepts such as 'createServer' to connect the program or code that runs on the website with the target computer. Through this, hackers can access target computers, delete files, and many more tools. (python) python is an extremely useul method in targeting specific documents and information on target computers, and performing multiple functions on them, including deleting random files to destroying the user's wifi and other electronic devices. ") == true) {
@@ -85,7 +99,7 @@ function changeHK() {
 
 }
 
-function changeHOW() {
+function changeHOW() {//How do you know if you got hacked?
   var txt;
   if (confirm("Here is some good ways to know if you just have been hacked (or just to be aware) 1. if your antivirus software is disabled (this one is the most important. Check this first) 2. if random popups (websites) are being loaded, or when suspicious sites are being loaded without the mouse interaction 3. when random files are being deleted without your consent 4. when the mouse is moving in it's own accord 5. fake virus messages 6. any suspicious website 7. if you feel like there is something suspicious") == true) {
       ;
@@ -95,7 +109,7 @@ function changeHOW() {
 
 }
 
-function changeDO() {
+function changeDO() {//What do you do if you get hacked?
   var txt;
   if (confirm("The first thing to do is to just shut down, or restart your computer. This stops any foreign access or malicious content from coming into your computer, therefore making any access impossible. Also, another good tip is to stop wifi from getting to your computer, or even turning off the wifi. This allows hackers little to no acces to your computer, mainly because their hacking is mainly compromised using the wifi. Also, turning off any electronic devices is extremely helpful when being hacked, as many hackers can access electronic devices. ") == true) {
       txt = "You great job! You just got hacked too!";
@@ -105,23 +119,10 @@ function changeDO() {
 
 }
 
-function changeWhat() {
-
-      var txt;
-      if (confirm("What is hacking? It is someone who seeks to breach defenses and exploit weaknesses in a computer system or network. Hackers may be motivated by a multitude of reasons, such as profit, protest, information gathering, challenge, recreation, or to evaluate system weaknesses to assist in formulating defenses against potential hackers'(Wika) so what does this mean? But what are viruses? Viruses are malicious software that allow ackers to gain access to your computer.") == true) {
-           myWindow = window.open("", "myWindow", "width=200,height=100");
-              myWindow.document.write("<p>This is what a popup looks like. It brings another window or tab without your permission. </p>");
-      } else {
-          my_window.close();
-      }
-
-
-}
 
 
 
-
-function changeERS(){
+function changeERS(){//Are hackers always bad guys?
 
   var txt;
   if(confirm("Hackers don't have to always be bad guys. White hat hackers experiment and test security breaches out, making sure that they are safe. They might also create anti-virus software, too. Black hat hackers are ones that really do the 'cool' stuff, getting access into other's computers and passwords.") == true) {
@@ -133,7 +134,7 @@ function changeERS(){
 
 }
 
-function changeOPTIMAL(){
+function changeOPTIMAL(){//What is the optimal coding language for hacking?
   var txt;
   if(confirm("The most optimal language for hackers is either javascript of Python. Python's usefulness is mainly because of its useful accessibility to other sites and documents that are on someone's computer. Javascript is useful for adding and accessing foreign computers, mainly for 'invading' different computers and attacking and accessing through a website.") == true) {
   ;
