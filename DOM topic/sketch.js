@@ -69,7 +69,7 @@ function changeWhat() {//What is hacking?
 
       var txt;
       if (confirm("What is hacking? It is someone who seeks to breach defenses and exploit weaknesses in a computer system or network. Hackers may be motivated by a multitude of reasons, such as profit, protest, information gathering, challenge, recreation, or to evaluate system weaknesses to assist in formulating defenses against potential hackers'(Wika) so what does this mean? But what are viruses? Viruses are malicious software that allow hackers to gain access to your computer.") == true) {
-           myWindow = window.open("https://kelin6868.github.io/Hacking/virusexample/", "myWindow", "width=200,height=100");
+           myWindow = window.open("/Hacking/virusexample/", "myWindow", "width=200,height=100");
               myWindow.document.write("<p>This is what a popup looks like. It brings another window or tab without your permission. </p>");
       } else {
           my_window.close();
