@@ -80,7 +80,7 @@ function changeWhat() {//What is hacking?
 
 
 function changeMAL() {//An example of malware
-  myWindow = window.open("", "myWindow", "width=200,height=100");
+  myWindow = window.open("virusexample/index.html", "myWindow", "width=200,height=100");
   /*var val = random(255);
   background(val);
   window.location='file:///Users/kevinlin/Documents/p5/virus%20example/index.html';*/
