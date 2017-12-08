@@ -91,7 +91,7 @@ function changeOPTIMAL(){//what is the optimal language in javascript?
 function changeHK() {//where is malware found on hacking sites?
 
       var txt;
-      if (confirm("Malware is found on alot of popup sites. Here is an keys of a malware sample(DONT USE IT FOR ANY MALICIOUS CONTENT):(javascript) malware uses concepts such as 'createServer' to connect the program or code that runs on the website with the target computer. Through this, hackers can access target computers, delete files, and many more tools. (python) python is an extremely useul method in targeting specific documents and information on target computers, and performing multiple functions on them, including deleting random files to destroying the user's wifi and other electronic devices. ") == true) {
+      if (confirm("Malware is found on alot of popup sites. Here are keys of a malware sample(DONT USE IT FOR ANY MALICIOUS CONTENT):(javascript) malware uses concepts such as 'createServer' to connect the program or code that runs on the website with the target computer. Through this, hackers can access target computers, delete files, and many more tools. (Python) Python is an extremely useul method in targeting specific documents and information on target computers, and performing multiple functions on them, including deleting random files to destroying the user's wifi and other electronic devices. ") == true) {
           txt = "You great job! You just got hacked too!";
       } else {
           txt = "You great job! You just got hacked too!";
