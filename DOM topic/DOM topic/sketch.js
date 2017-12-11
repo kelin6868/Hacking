@@ -104,7 +104,7 @@ function changeHK() {//where is malware found on hacking sites?
 function changeMAL() {//example to the virusexample sketch. The virusexample in the gist is the link that this will go to. 
   var myWindow;
 
-      myWindow = window.open("virusexample/index.html", "_blank", "width=700, height=700");
+      myWindow = window.open("virusexample/index.html", "_blank", "width=1400, height=1400");
 
 
 }
