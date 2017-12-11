@@ -17,17 +17,19 @@ If I had 10 more years, I would definitely do this project way more effectively,
 
 
 Sources of ideas and inspiration (title, author, URL):
- * 
- *
- *
+ * https://www.w3schools.com/
+ *https://www.hackthissite.org/
+ 
  
 Includes code from (title, author, URL):
- * 
- * 
- *
+ * https://www.w3schools.com/
+ * https://www.hackthissite.org/
+ 
  
 THIS ALSO INCLUDES CODE FROM THE FILE VIRUSEXAMPLE. SEE THE OTHER DOCUMENT TO ALSO GET CODE FROM THERE. 
 */
+let bubbles[];
+
 function setup() {
   createCanvas(1000, 1000);
   background(0);
@@ -206,3 +208,5 @@ function mousePressed() {
   let b = new Bubble(mouseX, mouseY, r);
   bubbles.push(b);
 }
+
+
