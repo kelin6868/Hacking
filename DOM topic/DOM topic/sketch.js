@@ -24,7 +24,7 @@ Sources of ideas and inspiration (title, author, URL):
 Includes code from (title, author, URL):
  * https://www.w3schools.com/
  * https://www.hackthissite.org/
- 
+ *https://malwaretips.com/blogs/wp-content/uploads/2016/12/www.youarethewinner.website-virus.jpg
  
 THIS ALSO INCLUDES CODE FROM THE FILE VIRUSEXAMPLE. SEE THE OTHER DOCUMENT TO ALSO GET CODE FROM THERE. 
 */
