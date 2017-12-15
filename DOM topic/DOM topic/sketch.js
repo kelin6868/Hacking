@@ -50,36 +50,36 @@ function setup() {
   //button.mousePressed(changeexam);
 
   button = createButton('What is hacking?');
-  button.position(19, one);
+  button.position(19, yVal.one);
   button.mousePressed(changeWhat);
 
   
 button = createButton('click here to learn more about Viruses');
-  button.position(19, two);
+  button.position(19, yVal.two);
   button.mousePressed(changeMAL);
   
 
   button = createButton('Malware examples');
-  button.position(19, three);
+  button.position(19, yVal.three);
   button.mousePressed(changeHK);
 
  
 
   button = createButton('but how do you if you got hacked?');
-  button.position(19, four);
+  button.position(19, yVal.four);
   button.mousePressed(changeHOW);
 
   button = createButton('what to do if you are actually hacked?');
-  button.position(19, five);
+  button.position(19, yVal.five);
   button.mousePressed(changeDO);
 
 
   button = createButton('Are some hackers good?');
-  button.position(19, six);
+  button.position(19, yVal.six);
   button.mousePressed(changeERS);
  
 button = createButton('What is the optimal coding language for hackers?');
-  button.position(19, seven);
+  button.position(19, yVal.seven);
   button.mousePressed(changeOPTIMAL);
 }
 
