@@ -28,6 +28,18 @@ Includes code from (title, author, URL):
  
 THIS ALSO INCLUDES CODE FROM THE FILE VIRUSEXAMPLE. SEE THE OTHER DOCUMENT TO ALSO GET CODE FROM THERE. 
 */
+var yVal = {
+ one: 50,
+ two: 100, 
+ three: 150, 
+ four: 200
+ five: 250
+ six: 300
+ seven: 350
+ eight: 400
+ nine: 450
+}
+
 let bubbles[];
 
 function setup() {
@@ -38,36 +50,37 @@ function setup() {
   //button.mousePressed(changeexam);
 
   button = createButton('What is hacking?');
-  button.position(19, 50);
+  button.position(19, one);
   button.mousePressed(changeWhat);
 
-  button = createButton('What is the optimal coding language for hackers?');
-  button.position(19, 350);
-  button.mousePressed(changeOPTIMAL);
-
+  
+button = createButton('click here to learn more about Viruses');
+  button.position(19, two);
+  button.mousePressed(changeMAL);
   
 
   button = createButton('Malware examples');
-  button.position(19, 150);
+  button.position(19, three);
   button.mousePressed(changeHK);
 
-  button = createButton('click here to learn more about Viruses');
-  button.position(19, 100);
-  button.mousePressed(changeMAL);
+ 
 
   button = createButton('but how do you if you got hacked?');
-  button.position(19, 200);
+  button.position(19, four);
   button.mousePressed(changeHOW);
 
   button = createButton('what to do if you are actually hacked?');
-  button.position(19, 250);
+  button.position(19, five);
   button.mousePressed(changeDO);
 
 
   button = createButton('Are some hackers good?');
-  button.position(19, 300);
+  button.position(19, six);
   button.mousePressed(changeERS);
-
+ 
+button = createButton('What is the optimal coding language for hackers?');
+  button.position(19, seven);
+  button.mousePressed(changeOPTIMAL);
 }
 
 function changeWhat() {//what is hacking?
