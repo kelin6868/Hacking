@@ -28,7 +28,7 @@ Includes code from (title, author, URL):
  
 THIS ALSO INCLUDES CODE FROM THE FILE VIRUSEXAMPLE. SEE THE OTHER DOCUMENT TO ALSO GET CODE FROM THERE. 
 */
-var yVal = {
+var yVal = {  // and here is my object syntax
  one: 50,
  two: 100, 
  three: 150, 
@@ -45,25 +45,18 @@ let bubbles[];
 function setup() {
   createCanvas(1000, 1000);
   background(0);
-  //button = createButton('click me');
-  //button.position(19, 50);
-  //button.mousePressed(changeexam);
-
+ 
   button = createButton('What is hacking?');
   button.position(19, yVal.one);
   button.mousePressed(changeWhat);
-
   
-button = createButton('click here to learn more about Viruses');
+  button = createButton('click here to learn more about Viruses');
   button.position(19, yVal.two);
   button.mousePressed(changeMAL);
   
-
   button = createButton('Malware examples');
   button.position(19, yVal.three);
   button.mousePressed(changeHK);
-
- 
 
   button = createButton('but how do you if you got hacked?');
   button.position(19, yVal.four);
@@ -72,7 +65,6 @@ button = createButton('click here to learn more about Viruses');
   button = createButton('what to do if you are actually hacked?');
   button.position(19, yVal.five);
   button.mousePressed(changeDO);
-
 
   button = createButton('Are some hackers good?');
   button.position(19, yVal.six);
