@@ -96,7 +96,7 @@ function changeWhat() {//what is hacking?
 }
 
 function changeOPTIMAL(){//what is the optimal language in javascript?
-  var txt;
+  var txt;// the following code makes a popup on the site, which answers the questions as best as I can. 
   if(confirm("The most optimal language for hackers is either javascript of Python. Python's usefulness is mainly because of its useful accessibility to other sites and documents that are on someone's computer. Javascript is useful for adding and accessing foreign computers, mainly for 'invading' different computers and attacking and accessing through a website.") == true) {
   ;
   } else{
